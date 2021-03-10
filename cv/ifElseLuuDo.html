@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Js Official</title>
+</head>
+<input type="text" id="1" onkeypress="js(event)"/>
+<body>
+    <script>
+        function js(event) {
+            var a = document.getElementById("1").value;
+            if (event.keyCode == 13) {
+                if (a == "ECMAScript") {
+                    alert("Right")
+                } else {
+                    alert("Didn't know ? ECMAScript");
+                }
+            }
+        }
+    </script>
+</body>
+</html>

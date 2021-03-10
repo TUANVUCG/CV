@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>If Else IF</title>
+</head>
+<body>
+<input type="text" id="1" placeholder="Tên đăng nhập" onkeypress="tendangnhap(e)"/>
+<input type="password" id="2" placeholder="Mật khẩu"/>
+<script>
+    var x = document.getElementById("1").value;
+    var y = document.getElementById("2").value;
+
+    function tendangnhap(e) {
+        if (e.keyCode == 13) {
+            if (x == "Admin") {
+                    if (y == "TheMaster") {
+                        alert("Welcome")
+                    }
+
+            }
+
+        }
+    }
+</script>
+</body>
+</html>
