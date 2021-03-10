@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sự kiện bàn phím</title>
+</head>
+<body onload="docready()">
+    <img id="hihi" src="hihi.jpg" style="position:absolute; left:0; top:0;" height="100px" width="100px"/>
+</body>
+<script>
+    function len(){
+        var element = document.getElementById("hihi");
+        element.style.top = parseInt(element.style.top) - 5 + "px";
+    }
+    function xuong(){
+        var element = document.getElementById("hihi");
+        element.style.top = parseInt(element.style.top) + 5 + "px";
+    }
+    function phai(){
+        var element = document.getElementById("hihi");
+        element.style.left = parseInt(element.style.left) + 5 + "px";
+    }
+    function trai(){
+        var element = document.getElementById("hihi");
+        element.style.left = parseInt(element.style.left) - 5 + "px";
+    }
+    function anphim(event) {
+        switch (event.keyCode){
+            case 37:
+                trai();
+                break;
+            case 38:
+                len();
+                break;
+            case 39:
+                phai();
+                break;
+            case 40:
+                xuong();
+                break;
+        }
+    }
+    function docready() {
+        window.addEventListener("keydown",anphim);
+    }
+</script>
+</html>
