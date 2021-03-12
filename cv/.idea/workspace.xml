@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbfd837e-d3ac-4f55-bae6-d6f78663d58c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Vòng lặp for bài 2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp while bài 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vòng lặp while bài 2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thực hành sử dụng vòng lặp do - while.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cấu trúc vòng lặp/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cấu trúc vòng lặp/.idea/Cấu trúc vòng lặp.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cấu trúc vòng lặp/.idea/modules.xml" beforeDir="false" />
@@ -13,8 +11,7 @@
       <change beforePath="$PROJECT_DIR$/../Cấu trúc điều kiện/ungDungChuyenDoiTienTe.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cấu trúc điều kiện/ungDungMayTinh.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Danh sách.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/suKienBanPhim.html" beforeDir="false" afterPath="$PROJECT_DIR$/suKienBanPhim.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../untitled/test/vòng lặp for.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +45,10 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Vòng lặp while bài 2.html">
+  <component name="RunManager" selected="JavaScript Debug.Thực hành sử dụng vòng lặp do - while.html">
+    <configuration name="Thực hành sử dụng vòng lặp do - while.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/cv/Thực hành sử dụng vòng lặp do - while.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="Vòng lặp for bài 2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/cv/Vòng lặp for bài 2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -60,6 +60,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Thực hành sử dụng vòng lặp do - while.html" />
         <item itemvalue="JavaScript Debug.Vòng lặp while bài 2.html" />
         <item itemvalue="JavaScript Debug.Vòng lặp while bài 1.html" />
         <item itemvalue="JavaScript Debug.Vòng lặp for bài 2.html" />
@@ -74,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615532509955</updated>
-      <workItem from="1615532511032" duration="4673000" />
+      <workItem from="1615532511032" duration="5949000" />
     </task>
     <servers />
   </component>
