@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Hiển thị các số nguyên tố đầu tiên</title>
+</head>
+<body>
+<script>
+    let n;
+    total = 0
+    var a = prompt("Nhập số")
+    for (let i = 0;i<=a;i++){
+        let k = 1;
+        if(i <= 0)
+        {
+            alert("Không phải số nguyên tố")
+        }else if(i == 1){
+            alert("Không phải số nguyên tố")
+        }else if(i == 2){
+            alert(i);
+        }else {
+            for (let j = 2; j < i; j++) {
+                if (i % j == 0) {
+                    k = 0;
+                    break;
+                }
+            }
+            if(k == 1){
+                document.write(" " + i)
+            }
+        }
+    }
+</script>
+</body>
+</html>
