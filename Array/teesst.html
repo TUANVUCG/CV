@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Faking Textarea on Typing</title>
+</head>
+<body>
+<h1>EM CÓ YÊU ANH KHÔNG ????</h1>
+<textarea id="text" onkeyup="onKey()" cols="100" rows="10" ></textarea>
+<script>
+    var str = "";
+    var a = ["Dạ ","có ","mình ","chiến ","luôn ","anh ","nhé"]
+    var count = 0;
+    function onKey(){
+        str+= a[count];
+        if(count === a.length){
+            str  = "";
+            count = -1;
+        }
+        document.getElementById("text").value = str;
+        count++;
+    }
+</script>
+</body>
+</html>
